@@ -14,7 +14,7 @@ const MainStack = createStackNavigator(
   {
     initialRouteName: 'Welcome',
   },
-)
+);
 
 const AppContainer = createAppContainer(MainStack)
 
