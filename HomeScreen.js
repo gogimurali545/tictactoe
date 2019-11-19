@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Image, Text, StyleSheet, Button } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import ttt from '../constants/ttt';
 
 export default HomeScreen = p => {
 
@@ -10,7 +11,7 @@ export default HomeScreen = p => {
             
             <TouchableOpacity 
                 style={styles.button}
-                onPress={() => p.navigation.navigate('Game', { para1: 'hello', para2: 'murali!' })}>
+                onPress={() => p.navigation.navigate('Game')}>
                 <Text style={{color:'white',fontSize:20,fontWeight:'300'}}> LET'S PLAY </Text>    
             </TouchableOpacity>
                
@@ -32,6 +33,7 @@ HomeScreen.navigationOptions = {
       headerTitleStyle: {
         fontWeight: 'bold',
       },
+      
 };
 
 const styles = StyleSheet.create({
