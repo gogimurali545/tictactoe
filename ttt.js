@@ -1,47 +1,47 @@
 const ttt =[
     {
         id:0,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:1,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:2,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:3,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:4,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:5,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:6,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:7,
-        text:'   ',
+        text:'',
         disabled:false,
     },
     {
         id:8,
-        text:'   ',
+        text:'',
         disabled:false,
     },
 ]
